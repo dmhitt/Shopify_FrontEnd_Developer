@@ -1,6 +1,6 @@
 import json
 import requests
-from .config import key
+from config import key
 
 
 def api_call():
