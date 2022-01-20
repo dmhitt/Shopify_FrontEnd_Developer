@@ -21,7 +21,7 @@ def home():
 
 @app.route("/data")
 def nasa_data():
-	nasa_data = {'result' : api_call()}
+    nasa_data = {'result' : api_call()}
     #nasa_data = {'result' : nasa.api_call()}
     # print ("nasa_data 2 = ", nasa_data)
     return json.loads(json_util.dumps(nasa_data))
