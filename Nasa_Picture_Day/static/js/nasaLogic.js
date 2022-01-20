@@ -2,7 +2,8 @@
 
 var images = [];
 function init() {
-  d3.json("http://127.0.0.1:5000/data").then(function(data, error)   {
+  d3.json("http://nasa-day-picture.herokuapp.com/data").then(function(data, error)   {
+    // d3.json("http://127.0.0.1:5000/data").then(function(data, error)   {
     
     // console.log("data=",data);
     // console.log("data=",data.result[0]);
