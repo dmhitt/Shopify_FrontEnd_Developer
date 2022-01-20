@@ -1,0 +1,1 @@
+web: gunicorn Nasa_Picture_Day.app:app
